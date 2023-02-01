@@ -1,0 +1,25 @@
+.button {
+    padding: 15px 45px;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 60px;
+    width: max-content;
+    cursor: pointer;
+}
+
+
+.primary-btn {
+    color: var(--white);
+    background-color: var(--btn-bg);
+    text-transform: uppercase;
+    border: 2px solid var(--btn-bg);
+}
+
+.secondary-btn, .button:hover {
+    border: 2px solid var(--white);
+}
+
+.button:hover {
+    color: var(--white);
+    background-color: var(--bg-blob);
+}
