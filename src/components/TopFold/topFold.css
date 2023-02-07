@@ -89,7 +89,6 @@
 }
 
 .tf-r-diamond-img {
-    /* height: 100%; */
     width: 100%;
     height: auto;
     display: block;
@@ -97,10 +96,10 @@
 
 @media screen and (max-width:1420px) {
     .tf-r-diamond-item {
-        /* height: 100%;
-        width: 100%; */
-        /* max-height: 250px;
-        max-width: 250px; */
+        height: auto;
+        width: 230px; 
+        max-height: 250px;
+        max-width: 250px; 
     }
 }
 
@@ -114,7 +113,6 @@
     }
 }
 
-
 @media screen and (max-width:1167px) {
     .tf-r-diamond-item {
         max-height: 220px;
@@ -127,44 +125,13 @@
     }
 }
 
-/* 
-
-@media screen and (max-width:1048px) {
+@media screen and (max-width:1050px) {
     .tf-r-diamond-item {
-        max-height: 200px;
-        max-width: 200px;
+        width: 190px;
     }
 }
-
-@media screen and (max-width:967px) {
-
-    .tf-r-diamond-item { 
-        max-width: 180px;
-        max-width: 190px;
-    }
-}
-
-@media screen and (max-width:927px) {
-    .tf-r-diamond-item { 
-        max-width: 150px;
-        max-width: 150px;
-    }
-
-}
-
-@media screen and (max-width:843px) {
-    .tf-r-diamond-item {
-        width: 170px;
-        height: 170px;
-    }
-} */
-
-
 
 @media screen and (max-width:750px) {
-    /* .tf-right {
-        display: none;
-    }    */
     .topfold {
         width: 100%;
         flex-wrap: wrap;
@@ -175,6 +142,7 @@
     }
 
     .tf-r-diamond-item {
+        height: auto;
         max-width: initial;
         max-height: initial;
         width: calc(50% - 19px);
@@ -205,6 +173,9 @@
     }
     .tf-left-infoStats {
         margin-bottom: 16px;
+    }
+    .tf-r-bg-blob {
+        height: 330px; 
     }
 }
 
