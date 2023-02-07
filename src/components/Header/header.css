@@ -12,3 +12,12 @@
     padding: 12px 0 0;
     letter-spacing: 6px;
 }
+
+
+@media screen and (max-width:550px) {
+
+    .header-title {
+        font-size: 30px;
+    }
+
+}

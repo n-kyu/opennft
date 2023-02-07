@@ -20,12 +20,14 @@ const TrendingCard = (props) => {
                 <div className='tc-ui-userhandle cur-po'>{nft.user_handle}</div>
               </div>
             </div>
+            <div className='tc-ui-info-bottom'>
             <div className='tc-ui-price'>{nft.price}</div>           
             <img 
               alt='ETH icon' 
               src='https://openseauserdata.com/files/265128aa51521c90f7905e5a43dcb456_new.svg'
               className='tc-eth-logo'
               />
+              </div>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className='max-width'>
+    <div className='container'>
       <Header />
       <TopFold />
       <BrandsIntegration />

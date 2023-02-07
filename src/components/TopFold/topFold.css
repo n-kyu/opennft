@@ -89,8 +89,141 @@
 }
 
 .tf-r-diamond-img {
-    height: 400px;
+    height: 100%;
     object-fit: contain;
     display: block;
 
+}
+
+@media screen and (max-width:1420px) {
+    .tf-r-diamond-item {
+        height: 100%;
+        width: 100%;
+        max-height: 250px;
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width:1286px) { 
+    .tf-r-diamond-item {
+        transform: none;
+    }
+    .tf-right-diamond {
+        transform: none;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width:1167px) {
+    .tf-r-diamond-item {
+        max-height: 220px;
+        max-width: 220px;
+    }
+}
+
+@media screen and (max-width:1048px) {
+    .tf-r-diamond-item {
+        max-height: 200px;
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width:967px) {
+
+    .tf-r-diamond-item { 
+        max-width: 180px;
+        max-width: 190px;
+    }
+}
+
+@media screen and (max-width:927px) {
+    .tf-r-diamond-item { 
+        max-width: 150px;
+        max-width: 150px;
+    }
+
+}
+
+@media screen and (max-width:843px) {
+    .tf-r-diamond-item {
+        width: 170px;
+        height: 170px;
+    }
+}
+
+
+
+@media screen and (max-width:750px) {
+    .tf-right {
+        display: none;
+    }   
+    
+    .tf-left {
+        padding: 0;
+    }
+
+    .tf-left-infoStats {
+        justify-content: space-evenly;
+    }
+    .tf-left-btns {
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media screen and (max-width:550px) {
+    .topfold {
+        height: 75vh;
+        margin-top: 62px;
+    }
+    .tf-left-infoStats {
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    
+    .tf-heading {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .tf-description {
+        font-size: 18px;
+    }
+
+    .tf-left-btns {
+        margin-top: 16px;    
+    }
+
+    .tf-infoItem-count {
+        font-size: 30px;
+    }
+    .tf-left-secondary-btn {
+        margin-left: 10px;
+    }
+    .topfold {
+        height: 65vh;
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+    .topfold {
+        height: 75vh;
+    }
+
+    .tf-left-infoStats {
+        flex-direction: column;
+    }
+    .tf-is-infoItem {
+        margin-right: 0;
+    }
+    .tf-infoItem-label {
+        padding-bottom: 10px;
+    }
+    .tf-left-infoStats {
+        padding: 20px 0 0;
+    }
 }

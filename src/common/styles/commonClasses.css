@@ -5,9 +5,10 @@
 
 }
 
-.max-width {
-    width: 80%;
+.container {
+    max-width: 1540px;
     margin: auto;
+    padding: 0 15px;
 }
 
 .cur-po {
