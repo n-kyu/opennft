@@ -13,6 +13,12 @@
     letter-spacing: 6px;
 }
 
+@media screen and (max-width:750px) {
+    .header {
+        border-bottom: 3px solid var(--header-border);
+        margin-bottom: 20px;
+    }
+}
 
 @media screen and (max-width:550px) {
 
