@@ -97,9 +97,9 @@
 @media screen and (max-width:1420px) {
     .tf-r-diamond-item {
         height: auto;
-        width: 230px; 
+        width: 230px;
         max-height: 250px;
-        max-width: 250px; 
+        max-width: 250px;
     }
 }
 
@@ -136,7 +136,7 @@
         width: 100%;
         flex-wrap: wrap;
     }
-    
+
     .tf-right{
         width: 100%;
     }
@@ -161,7 +161,7 @@
     .tf-left-btns {
         justify-content: space-evenly;
     }
-    
+
     .tf-right-diamond{
         justify-content: center;
     }
@@ -175,12 +175,12 @@
         margin-bottom: 16px;
     }
     .tf-r-bg-blob {
-        height: 330px; 
+        height: 330px;
     }
 }
 
 @media screen and (max-width:500px) {
-    
+
     .tf-heading {
         font-size: 48px;
         line-height: 48px;
@@ -191,7 +191,7 @@
     }
 
     .tf-left-btns {
-        margin-top: 16px;    
+        margin-top: 16px;
     }
 
     .tf-infoItem-count {
